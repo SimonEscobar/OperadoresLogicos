@@ -1,0 +1,33 @@
+La lógica computacional es la base de la programación y permite que los programas tomen decisiones mediante operaciones lógicas y condiciones.
+Python ofrece operadores lógicos para evaluar expresiones y decidir el flujo de ejecución en un programa.
+
+¿Qué es la Lógica Computacional?
+Es la disciplina que estudia cómo representar y manipular información usando reglas lógicas. En programación, se usa para:
+Evaluar expresiones lógicas.
+Controlar el flujo del programa (if, while, for).
+Comparar valores y tomar decisiones.
+
+Los operadores lógicos permiten combinar y evaluar expresiones booleanas (True o False).
+and	Devuelve True si ambas condiciones son True	(5 > 3) and (10 > 2)	True
+or	Devuelve True si al menos una condición es True	(5 > 3) or (10 < 2)	True
+not	Invierte el valor de True o False	not(5 > 3)	False
+
+==	Igualdad	5 == 5	True
+!=	Diferente	5 != 3	True
+>	Mayor que	5 > 3	True
+<	Menor que	3 < 5	True
+>=	Mayor o igual que	5 >= 5	True
+<=	Menor o igual que	3 <= 5	True
+
+Jerarquía de Operadores en Python
+Al combinar operadores, Python evalúa en el siguiente orden:
+1️. Paréntesis ()
+2️. Operadores de comparación (==, !=, >, <, >=, <=)
+3️. not
+4️. and
+5️. or
+
+La lógica computacional permite evaluar condiciones y tomar decisiones en un programa.
+Los operadores lógicos (and, or, not) combinan condiciones booleanas.
+Los operadores de comparación (==, !=, >, <, >=, <=) comparan valores.
+Python sigue una jerarquía de evaluación, por lo que es importante usar paréntesis cuando sea necesario.
