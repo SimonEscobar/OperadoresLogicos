@@ -1,0 +1,8 @@
+edad = 20  # Edad de la persona
+permiso = True  # Si tiene permiso para salir de casa
+
+# Usamos el operador 'and' para verificar que ambas condiciones sean verdaderas
+if edad >= 18 and permiso:
+    print("Puedes salir de casa.")
+else:
+    print("No puedes salir de casa.")
